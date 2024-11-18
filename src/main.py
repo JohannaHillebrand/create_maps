@@ -103,4 +103,4 @@ if __name__ == '__main__':
     # plot only modified map
     modified_map.plot()
     plt.savefig(f'{output_path}modified_map{num_of_polygons}.png')
-    plt.show()
+    plt.close()
